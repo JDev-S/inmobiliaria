@@ -28,3 +28,7 @@ Route::get('/contacto', function () {
 Route::get('/propiedades', function () {
     return view('/principal/catalogos');
 });
+
+Route::get('/info_propiedad', function () {
+    return view('/principal/infopropiedad');
+});

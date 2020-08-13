@@ -15,6 +15,8 @@
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CLato:400,700'">
     <link rel="stylesheet" href="/css/style.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    @yield('styles')
     <!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="https://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -56,7 +58,7 @@
                                         <ul class="rd-navbar-nav">
                                             <li class="active"><a href="/"><span>Inicio</span></a>
                                             </li>
-                                             <li><a href="/catalogos"><span>Catalogos de casas</span></a>
+                                             <li><a href="/propiedades"><span>Propiedades</span></a>
                                             </li>
                                             <li><a href="/acerca_de"><span>Acerca de</span></a>
                                             </li>
@@ -229,6 +231,7 @@
     <!-- Java script-->
     <script src="/js/core.min.js"></script>
     <script src="/js/script.js"></script>
+    @yield('scripts')
 
     <!--LIVEDEMO_00 -->
 
