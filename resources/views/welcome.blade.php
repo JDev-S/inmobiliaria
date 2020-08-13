@@ -54,17 +54,19 @@
                                         <div class="rd-navbar-mobile-brand"><a href="index.html"><img width='207' height='41' src='/images/logo-207x41.png' alt='' /></a></div>
                                         <!-- RD Navbar Nav-->
                                         <ul class="rd-navbar-nav">
-                                            <li class="active"><a href="index.html"><span>Home</span></a>
+                                            <li class="active"><a href="/"><span>Inicio</span></a>
                                             </li>
-                                            <li><a href="about.html"><span>About</span></a>
+                                             <li><a href="/catalogos"><span>Catalogos de casas</span></a>
                                             </li>
-                                            <li><a href="catalog.html"><span>Catalog</span></a>
+                                            <li><a href="/acerca_de"><span>Acerca de</span></a>
+                                            </li>
+                                            <!--<li><a href="catalog.html"><span>Catalog</span></a>
                                                 <ul class="rd-navbar-dropdown">
                                                     <li><a href="single-property.html"><span class="text-middle">Single property</span></a>
                                                     </li>
                                                 </ul>
-                                            </li>
-                                            <li><a href="#"><span>Pages</span></a>
+                                            </li>-->
+                                            <!--<li><a href="#"><span>Pages</span></a>
                                                 <ul class="rd-navbar-dropdown">
                                                     <li><a href="404.html"><span class="text-middle">404 Page</span></a>
                                                     </li>
@@ -79,12 +81,12 @@
                                                     <li><a href="search-results.html"><span class="text-middle">Search results</span></a>
                                                     </li>
                                                 </ul>
+                                            </li>-->
+                                            <!--<li><a href="services.html"><span>Services</span></a>
+                                            </li>-->
+                                            <li><a href="/contacto"><span>Contacto</span></a>
                                             </li>
-                                            <li><a href="services.html"><span>Services</span></a>
-                                            </li>
-                                            <li><a href="contact.html"><span>Contacts</span></a>
-                                            </li>
-                                            <li><a href="#"><span>Blocks</span></a>
+                                            <!--<li><a href="#"><span>Blocks</span></a>
                                                 <div class="rd-navbar-megamenu">
                                                     <div class="row">
                                                         <ul class="col-xl-3">
@@ -108,7 +110,7 @@
                                                         </ul>
                                                     </div>
                                                 </div>
-                                            </li>
+                                            </li>-->
                                         </ul>
                                     </div>
                                 </div>
@@ -217,7 +219,7 @@
                 </div>
             </div>
             <div class="container offset-top-50">
-                <p class="small text-darker">Immovables &copy; <span class="copyright-year"></span> . <a href="privacy.html">Privacy Policy</a></p>
+                <p class="small text-darker">Derechos reservados para &copy; <span class="copyright-year"></span> . <a href="https://jdevs.com.mx/">JDev-S</a></p>
             </div>
         </footer>
     </div>

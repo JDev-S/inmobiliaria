@@ -18,9 +18,13 @@ Route::get('/', function () {
 });
 
 Route::get('/acerca_de', function () {
-    return view('/principal/acercade');
+    return view('/principal/acerca');
 });
 
 Route::get('/contacto', function () {
     return view('/principal/contacto');
+});
+
+Route::get('/propiedades', function () {
+    return view('/principal/catalogos');
 });
